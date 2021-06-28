@@ -20,6 +20,10 @@ nav#main-nav{
 
 nav#main-nav ul{
     padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 nav#main-nav li{
