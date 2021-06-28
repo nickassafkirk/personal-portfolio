@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
     <title>Nick Kirk Software Developer</title>
 </head>
 <body>
@@ -10,7 +11,8 @@
         <h1 id="my-name">Nick Kirk</h1>
         <h2 id="my-role">Software Developer</h2>
     </header>
-    <nav id="main-nav">
+    <div class="page-wrapper">
+        <nav id="main-nav">
         <ul>
             <li>
                 <a href="">
@@ -34,8 +36,12 @@
             </li>
         </ul>  
     </nav>
-    {% block content %}
-    {% endblock %}
+
+        <div class="page-content">
+        {% block content %}
+        {% endblock %}
+        </div>
+    </div>
 
     <footer>
 
