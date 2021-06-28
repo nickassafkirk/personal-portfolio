@@ -1,15 +1,25 @@
 body{
-    background: #111133;
+    background: #000010;
     color: #ededed;
+}
+
+.page-wrapper{
     position: relative;
+    border-top: 2px solid #333;
 }
 
 nav#main-nav{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    width: 20vw;
-    height: 80vh;
+    width: 10vw;
+    height: 100vh;
+    border-right: 2px solid #333;
+    text-align: center;
+}
+
+nav#main-nav ul{
+    padding: 0px;
 }
 
 nav#main-nav li{
@@ -19,5 +29,13 @@ nav#main-nav li{
 nav#main-nav li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: rgb(53, 53, 228);
+    color: #333;
+}
+
+.page-content{
+    position: relative;
+    left: 10vw;
+    top: 0;
+    width: 90vw;
+    padding: 1%;
 }
