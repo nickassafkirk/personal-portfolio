@@ -1,0 +1,23 @@
+body{
+    background: #111133;
+    color: #ededed;
+    position: relative;
+}
+
+nav#main-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 80vh;
+}
+
+nav#main-nav li{
+    list-style-type: none;
+}
+
+nav#main-nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(53, 53, 228);
+}
